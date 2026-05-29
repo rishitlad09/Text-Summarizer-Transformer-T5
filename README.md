@@ -135,6 +135,12 @@ uvicorn app:app --reload
 -   Increase the **number of epochs**\
 -   Use larger models like **t5-base** or **t5-large**
 
+## ⚠️ saved_summary_model
+The `saved_summary_model` directory is not included in this repository because of GitHub file size limitations.  
+To run this project, you must generate the model locally by executing the Jupyter Notebook provided in the project.
+
+This will create the required model files for summarization.
+
 ------------------------------------------------------------------------
 
 ## 📌 Future Improvements
