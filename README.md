@@ -1,7 +1,7 @@
-# 📝 Text Summarizer & (FastAPI + T5)
+# 📝 Text Summarizer using FastAPI + T5
 
 A simple and elegant **Text Summarization Web App** built using
-**FastAPI** and **Hugging Face Transformers**.\
+**FastAPI** and **Hugging Face Transformers**.
 This project uses a fine-tuned **T5-small** model to generate summaries
 from dialogue-based text.
 
@@ -9,36 +9,36 @@ from dialogue-based text.
 
 ## 🚀 Features
 
--   ✨ Dialogue-based text summarization\
--   ⚡ FastAPI backend for fast processing\
--   🎨 Clean and responsive UI\
--   🤖 Transformer-based NLP model\
+-   ✨ Dialogue-based text summarization
+-   ⚡ FastAPI backend for fast processing
+-   🎨 Clean and responsive UI
+-   🤖 Transformer-based NLP model
 
 ------------------------------------------------------------------------
 
 ## 🧠 Model Details
 
--   **Model:** T5-small\
--   **Fine-tuned on:** SAMSum Dataset (Dialogue Dataset)\
--   **Training Samples:** 5000 dialogues\
+-   **Model:** T5-small
+-   **Fine-tuned on:** SAMSum Dataset (Dialogue Dataset)
+-   **Training Samples:** 5000 dialogues
 -   **Task:** Abstractive Text Summarization
 
 ------------------------------------------------------------------------
 
 ## ⚙️ Tech Stack
 
--   **Backend:** FastAPI\
--   **Frontend:** HTML, CSS, JavaScript\
--   **ML Framework:** PyTorch\
+-   **Backend:** FastAPI
+-   **Frontend:** HTML, CSS, JavaScript
+-   **ML Framework:** PyTorch
 -   **Transformers:** Hugging Face Transformers
 
 ------------------------------------------------------------------------
 
 ## 📂 Project Structure
 
-    ├── templates/
+    ├── templates
     │   └── index.html
-    ├── saved_summary_model/
+    ├── saved_summary_model
     │   └── (fine-tuned T5 model files)
     ├── app.py
     ├── requirements.txt
@@ -126,13 +126,13 @@ uvicorn app:app --reload
 ## ⚠️ Important Notes
 
 -   The model is trained on only **5000 samples** from the SAMSum
-    dataset.\
+    dataset.
 -   This is a **lightweight and experimental setup**.
 
 ### For better accuracy:
 
--   Train on the **full dataset**\
--   Increase the **number of epochs**\
+-   Train on the **full dataset**
+-   Increase the **number of epochs**
 -   Use larger models like **t5-base** or **t5-large**
 
 ## ⚠️ saved_summary_model
@@ -145,10 +145,10 @@ This will create the required model files for summarization.
 
 ## 📌 Future Improvements
 
--   Integrate translation feature in UI\
--   Improve model accuracy with more data\
--   Optimize performance for deployment\
--   Deploy on cloud (AWS / GCP / Render)\
+-   Integrate translation feature in UI
+-   Improve model accuracy with more data
+-   Optimize performance for deployment
+-   Deploy on cloud (AWS / GCP / Render)
 -   Improve mobile responsiveness
 
 ------------------------------------------------------------------------
